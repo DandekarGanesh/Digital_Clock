@@ -1,0 +1,47 @@
+body {
+    background-color: #91C8E4;
+}
+
+* {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.clock {
+    background-color: #4682A9;
+    height: 200px;
+    width: 350px; 
+    padding: 20px;
+    margin: auto;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    border-radius: 20px;
+    position: relative; 
+    top: -400px;
+    transition: 0.8s;
+}
+
+input {
+    height: 50px;
+    width: 50px;
+}
+
+.box:checked + .clock{
+    top: 2px;
+}
+
+.clock:hover {
+    box-shadow: 4px 4px 8px 8px gray;
+}
+
+
+
+
+
+
